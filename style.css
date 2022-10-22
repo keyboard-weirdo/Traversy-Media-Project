@@ -1,5 +1,20 @@
-@media(min-width: 78px) {
+@media(min-width: 768px) {
  .news-input {
-  width: 60%;
- }
+  width: 50%;
+  }
+}
+
+.btn {
+ font-weight: 600;
+}
+
+.card-title,
+.navbar-brand {
+ text-decoration: underline;
+ text-transform: uppercase;
+ font-weight: 500;
+}
+
+.card {
+ border-radius: 15px;
 }
