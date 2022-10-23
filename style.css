@@ -1,3 +1,9 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+  /* adds a ghost element so the navbar doesn't hide the top of the hero section */
+}
 @media(min-width: 768px) {
  .news-input {
   width: 50%;
@@ -8,8 +14,7 @@
  font-weight: 600;
 }
 
-.card-title,
-.navbar-brand {
+.card-title {
  text-decoration: underline;
  text-transform: uppercase;
  font-weight: 500;
@@ -17,4 +22,13 @@
 
 .card {
  border-radius: 15px;
+}
+.profile {
+  max-height: 200px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
